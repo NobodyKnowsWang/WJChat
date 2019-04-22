@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		25355194C638AFFE46C4811D /* Pods_WJChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489B53ED45ED8F57A6C6BE0 /* Pods_WJChat.framework */; };
 		2F0C2E54226DF7C40098D564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C2E53226DF7C40098D564 /* AppDelegate.swift */; };
-		2F0C2E56226DF7C40098D564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C2E55226DF7C40098D564 /* ViewController.swift */; };
 		2F0C2E59226DF7C40098D564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C2E57226DF7C40098D564 /* Main.storyboard */; };
 		2F0C2E5B226DF7C90098D564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C2E5A226DF7C90098D564 /* Assets.xcassets */; };
 		2F0C2E5E226DF7C90098D564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C2E5C226DF7C90098D564 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		1069160B8D1C0CC85A166CD3 /* Pods-WJChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJChat.release.xcconfig"; path = "Target Support Files/Pods-WJChat/Pods-WJChat.release.xcconfig"; sourceTree = "<group>"; };
 		2F0C2E50226DF7C40098D564 /* WJChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0C2E53226DF7C40098D564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F0C2E55226DF7C40098D564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F0C2E58226DF7C40098D564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F0C2E5A226DF7C90098D564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F0C2E5D226DF7C90098D564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				2F0C2E53226DF7C40098D564 /* AppDelegate.swift */,
-				2F0C2E55226DF7C40098D564 /* ViewController.swift */,
 				2F0C2E57226DF7C40098D564 /* Main.storyboard */,
 				2F0C2E5A226DF7C90098D564 /* Assets.xcassets */,
 				2F0C2E5C226DF7C90098D564 /* LaunchScreen.storyboard */,
@@ -146,7 +143,6 @@
 				F7598C393A9D5C3ECBEAE2FA /* Pods-WJChat.debug.xcconfig */,
 				1069160B8D1C0CC85A166CD3 /* Pods-WJChat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -332,7 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0C2E56226DF7C40098D564 /* ViewController.swift in Sources */,
 				2F0C2E54226DF7C40098D564 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
