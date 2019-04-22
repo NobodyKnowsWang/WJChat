@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25355194C638AFFE46C4811D /* Pods_WJChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489B53ED45ED8F57A6C6BE0 /* Pods_WJChat.framework */; };
 		2F0C2E54226DF7C40098D564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C2E53226DF7C40098D564 /* AppDelegate.swift */; };
 		2F0C2E56226DF7C40098D564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C2E55226DF7C40098D564 /* ViewController.swift */; };
 		2F0C2E59226DF7C40098D564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C2E57226DF7C40098D564 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1069160B8D1C0CC85A166CD3 /* Pods-WJChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJChat.release.xcconfig"; path = "Target Support Files/Pods-WJChat/Pods-WJChat.release.xcconfig"; sourceTree = "<group>"; };
 		2F0C2E50226DF7C40098D564 /* WJChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0C2E53226DF7C40098D564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F0C2E55226DF7C40098D564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		2F0C2E6F226DF7CA0098D564 /* WJChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0C2E73226DF7CA0098D564 /* WJChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJChatUITests.swift; sourceTree = "<group>"; };
 		2F0C2E75226DF7CA0098D564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4489B53ED45ED8F57A6C6BE0 /* Pods_WJChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7598C393A9D5C3ECBEAE2FA /* Pods-WJChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJChat.debug.xcconfig"; path = "Target Support Files/Pods-WJChat/Pods-WJChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25355194C638AFFE46C4811D /* Pods_WJChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				2F0C2E67226DF7C90098D564 /* WJChatTests */,
 				2F0C2E72226DF7CA0098D564 /* WJChatUITests */,
 				2F0C2E51226DF7C40098D564 /* Products */,
+				D52E468C10B365650D2887D2 /* Pods */,
+				B38D6D289DDFAA78CAC56A12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,24 @@
 			path = WJChatUITests;
 			sourceTree = "<group>";
 		};
+		B38D6D289DDFAA78CAC56A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4489B53ED45ED8F57A6C6BE0 /* Pods_WJChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D52E468C10B365650D2887D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7598C393A9D5C3ECBEAE2FA /* Pods-WJChat.debug.xcconfig */,
+				1069160B8D1C0CC85A166CD3 /* Pods-WJChat.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F0C2E78226DF7CA0098D564 /* Build configuration list for PBXNativeTarget "WJChat" */;
 			buildPhases = (
+				E664C1EFB890DFDB89FA581B /* [CP] Check Pods Manifest.lock */,
 				2F0C2E4C226DF7C40098D564 /* Sources */,
 				2F0C2E4D226DF7C40098D564 /* Frameworks */,
 				2F0C2E4E226DF7C40098D564 /* Resources */,
+				6CE3801B3AB044B4A519A2BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CE3801B3AB044B4A519A2BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WJChat/Pods-WJChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/LeanCloud/LeanCloud.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanCloud.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WJChat/Pods-WJChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E664C1EFB890DFDB89FA581B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WJChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F0C2E4C226DF7C40098D564 /* Sources */ = {
@@ -430,6 +506,7 @@
 		};
 		2F0C2E79226DF7CA0098D564 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7598C393A9D5C3ECBEAE2FA /* Pods-WJChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +525,7 @@
 		};
 		2F0C2E7A226DF7CA0098D564 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1069160B8D1C0CC85A166CD3 /* Pods-WJChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
